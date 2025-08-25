@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+.hero {
+    display: block;
+    width: auto;
+    margin-inline: auto;
+    height: 100vh;
+    background: url('../images/image\ \(1\)\ \(1\).png');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    margin-inline: 20px;
+    padding-block: 20px;
+}
+
+.logo {
+    width: 62px;
+    margin-right: 9ch;
+}
+
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 12ch;
+    width: auto;
+}
+
+li {
+    color: rgb(255, 255, 255);
+    list-style: none;
+}
+
+a {
+    font-size: 2rem;
+    font-family: "Inria Sans";
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.hamburger {
+    font-size: 2rem;
+    float: right;
+}
+
+.work {
+    background-color: #748ebc77;
+    padding-inline: 1.5ch;
+    padding-block: 0.2ch;
+    box-shadow: 2px 4px 8px #0000003e;
+}
+
+h3 {
+    color: white;
+    font-size: 1.7rem;
+    font-family: 'Inconsolata';
+    text-align: center;
+    width: 50ch;
+}
+
+.mid-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30ch;
+    width: fit-content;
+    margin-top: 30ch;
+    margin-inline: auto;
+}
+
+.btn {
+    color: white;
+    font-family: 'Instrument Sans';
+    font-size: 2.5rem;
+    background-color: #2b599d79;
+    padding-inline: 1.5ch;
+    box-shadow: 2px 4px 8px #0000003e;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 10ch;
+    margin-bottom: 10ch;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+}
