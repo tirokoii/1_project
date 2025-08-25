@@ -85,17 +85,38 @@ h3 {
 }
 
 .cards {
-    display: flex;
-    justify-content: center;
     margin-top: 10ch;
     margin-bottom: 10ch;
 }
 
 .row {
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .card {
+    color: #3D3765;
+    font-size: 2rem;
+    font-family: 'Inria Sans';
+    font-weight: 600;
     display: flex;
+    flex-wrap: wrap;
+    gap: 1.5ch;
+    flex-direction: column;
+    align-content: center;
+    width: 20ch;
+    height: 30ch;
+    background-color: #c1d6ffa9;
+    padding: 2ch;
+    border-radius: 0.5ch;
+    border-top-right-radius: 3ch;
+}
+
+img {
+    width: 40ch;
+}
+
+.text {
+    
 }
