@@ -69,7 +69,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30ch;
+    gap: 25ch;
     width: fit-content;
     margin-top: 30ch;
     margin-inline: auto;
@@ -118,5 +118,5 @@ img {
 }
 
 .text {
-    
+
 }
