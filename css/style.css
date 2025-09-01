@@ -16,6 +16,7 @@ body {
 }
 
 .navbar {
+    width: auto;
     margin-inline: 20px;
     padding-block: 20px;
 }
@@ -29,7 +30,7 @@ body {
 ul {
     display: flex;
     align-items: center;
-    gap: 12ch;
+    gap: 5vw;
     width: auto;
 }
 
@@ -46,9 +47,8 @@ a {
 }
 
 .hamburger {
-    margin-left: 38vw;
     font-size: 2rem;
-    float: right;
+    margin-left: auto;
 }
 
 .work {
@@ -87,12 +87,13 @@ h3 {
 
 .cards {
     margin-top: 10ch;
-    margin-bottom: 10ch;
+    margin-bottom: 5ch;
 }
 
 .row {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 12ch;
     flex-wrap: wrap;
 }
 
@@ -132,6 +133,7 @@ main {
     font-size: 1.5rem;
     font-family: 'Inconsolata';
     margin-top: 10ch;
+    margin-bottom: 10ch;
 }
 
 footer {
